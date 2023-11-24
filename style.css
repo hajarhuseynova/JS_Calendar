@@ -9,7 +9,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 17px;
+  margin-top: 7px;
 }
 h1 {
   color: #fff;
@@ -19,13 +19,12 @@ h1 {
   font-weight: 700;
   line-height: normal;
 }
-
 .box {
   width: 828px;
-  height: 499px;
+  height: 520px;
   border-radius: 20px;
   background: #fefefe;
-  margin-top: 23px;
+  margin-top: 10px;
 }
 .enter {
   display: flex;
@@ -85,23 +84,21 @@ h1 {
   margin-right: 140px;
 }
 .monthday {
-  width: 13.294px;
+  text-align: center;
+  width: 18.991px;
   height: 26.263px;
-  flex-shrink: 0;
-  color: #16161a;
-  font-family: Space Grotesk;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  margin-left: 80px;
 }
 .month {
-  height: 26.263px;
-  margin-bottom: 20px;
-  display: flex;
-  margin-left: 42px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 5px;
+  width: 655px;
+  margin-left: 115px;
 }
 img {
   cursor: pointer;
+  transition: 0.5s;
+}
+img:hover {
+  transform: scale(1.1);
 }
