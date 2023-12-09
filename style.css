@@ -20,8 +20,8 @@ h1 {
   line-height: normal;
 }
 .box {
-  width: 828px;
-  height: 520px;
+  width: 830px;
+  height: 500px;
   border-radius: 20px;
   background: #fefefe;
   margin-top: 10px;
@@ -101,4 +101,94 @@ img {
 }
 img:hover {
   transform: scale(1.1);
+}
+.card-black {
+  display: none;
+  width: 436px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #16161a;
+  position: absolute;
+  right: 15%;
+  top: 24.7%;
+}
+.card-black-body {
+  padding-top: 33px;
+  padding-left: 56px;
+  padding-bottom: 69px;
+}
+.weekdayP {
+  color: #7f5af0;
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.monthDay {
+  color: #fff;
+  font-family: Space Grotesk;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.specialEvent {
+  width: 274px;
+  color: #fff;
+  font-family: Space Grotesk;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 52px;
+}
+.upcoming {
+  color: #7f5af0;
+  font-family: Space Grotesk;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+
+.inner {
+  display: flex;
+}
+.color {
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  margin-right: 6px;
+  border-radius: 50%;
+  margin-left: 4px;
+}
+.blue {
+  background-color: #00c;
+}
+.orange {
+  background-color: #f90;
+}
+.dyName {
+  color: #fff;
+  font-family: Space Grotesk;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-top: -7px;
+  margin-bottom: 0px;
+}
+.daydetails {
+  color: #fff;
+  font-family: Space Grotesk;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 18px;
 }
